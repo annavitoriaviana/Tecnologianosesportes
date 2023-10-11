@@ -1,0 +1,55 @@
+body {
+    background: url('https://fusiontecnologia.com/wp-content/uploads/2022/12/Tecnologia-no-esporte-o-que-muda-e-qual-o-seu-impacto.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f5f0ff; /* Cor de fundo roxo claro se a imagem não carregar ou cobrir completamente */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ffffff; /* Cor do título (branco para contrastar com a imagem de fundo) */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4a148c; /* Cor do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #7b1fa2; /* Cor do botão ao passar o mouse */
+  }
+  
+  #nameInput {
+    margin-top: 20px;
+  }
+  
+  .image-container img {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .video-container iframe {
+    width: 50%;
+    margin: 10px;
+  }
+  
+  #content {
+    margin-top: 20px;
+    color: #ffffff; /* Cor do texto do conteúdo (branco para contrastar com a imagem de fundo) */
+  }
+  
