@@ -1,0 +1,36 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tecnologia nos Esportes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tecnologia nos Esportes</h1>
+    <button onclick="askName()">Iniciar</button>
+    <div id="nameInput" style="display: none;">
+      <label for="name">Digite seu nome: </label>
+      <input type="text" id="name" placeholder="Seu nome">
+      <button onclick="showContent()">Enviar</button>
+    </div>
+    <div id="content" style="display: none;">
+      <h2>Bem-vindo, <span id="userName"></span>!</h2>
+      <!-- Vídeos do YouTube -->
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sT-QSdmQN0o?si=-0y1-IhUnguzzLnQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SwsIAurBlsY?si=lIu9ctC3nsUgAE4t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <!-- Textos -->
+      <p>Aqui está um pouco sobre a tecnologia nos esportes...</p>
+      <!-- Imagens -->
+      <div class="image-container">
+        <img src="https://clubepaineiras.org.br/wp-content/uploads/2023/08/tecnologias-no-esporte.jpg" alt="Imagem 1">
+        <img src="https://peteletricaufjf.files.wordpress.com/2017/01/19164283.jpg" alt="Imagem 2">
+        <img src="https://bugbusters.com.br/wp-content/uploads/2018/12/tecnologia_no_esporte.png" alt="Imagem 3">
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
